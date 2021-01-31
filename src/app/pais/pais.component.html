@@ -1,0 +1,20 @@
+
+
+  
+<table>
+    <tr>
+        <th>Ano</th>
+
+        <th>Valor</th>
+        <th>País</th>
+        
+    </tr>
+
+    <tr *ngFor="let pais of pais">
+     
+        <td>{{pais.date}}</td>
+        <td>{{pais.value}}</td>
+        <td>{{pais.country.value}}</td>
+      
+    </tr>
+</table>
